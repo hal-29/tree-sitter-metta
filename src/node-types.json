@@ -1,0 +1,761 @@
+[
+  {
+    "type": "atom",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "boolean_literal",
+          "named": true
+        },
+        {
+          "type": "char_literal",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        },
+        {
+          "type": "number_literal",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "type_operator",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "boolean_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "char_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "immediate_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "immediate_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "immediate_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "keyword",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "operator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "immediate_expression",
+          "named": true
+        },
+        {
+          "type": "shebang",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string_literal",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "type_operator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "variable",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "symbol",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "!",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "#",
+    "named": false
+  },
+  {
+    "type": "$",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "+ ",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<= ",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": "=alpha",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": "@desc",
+    "named": false
+  },
+  {
+    "type": "@doc",
+    "named": false
+  },
+  {
+    "type": "@doc-formal",
+    "named": false
+  },
+  {
+    "type": "@item",
+    "named": false
+  },
+  {
+    "type": "@kind",
+    "named": false
+  },
+  {
+    "type": "@param",
+    "named": false
+  },
+  {
+    "type": "@params",
+    "named": false
+  },
+  {
+    "type": "@return",
+    "named": false
+  },
+  {
+    "type": "@type",
+    "named": false
+  },
+  {
+    "type": "Error",
+    "named": false
+  },
+  {
+    "type": "ErrorType",
+    "named": false
+  },
+  {
+    "type": "False",
+    "named": false
+  },
+  {
+    "type": "True",
+    "named": false
+  },
+  {
+    "type": "abs-math",
+    "named": false
+  },
+  {
+    "type": "acos-math",
+    "named": false
+  },
+  {
+    "type": "add-atom",
+    "named": false
+  },
+  {
+    "type": "add-reduct",
+    "named": false
+  },
+  {
+    "type": "and",
+    "named": false
+  },
+  {
+    "type": "asin-math",
+    "named": false
+  },
+  {
+    "type": "assertAlphaEqual",
+    "named": false
+  },
+  {
+    "type": "assertAlphaEqualToResult",
+    "named": false
+  },
+  {
+    "type": "assertEqual",
+    "named": false
+  },
+  {
+    "type": "assertEqualToResult",
+    "named": false
+  },
+  {
+    "type": "atan-math",
+    "named": false
+  },
+  {
+    "type": "atom-subst",
+    "named": false
+  },
+  {
+    "type": "bind!",
+    "named": false
+  },
+  {
+    "type": "capture",
+    "named": false
+  },
+  {
+    "type": "car-atom",
+    "named": false
+  },
+  {
+    "type": "case",
+    "named": false
+  },
+  {
+    "type": "cdr-atom",
+    "named": false
+  },
+  {
+    "type": "ceil-math",
+    "named": false
+  },
+  {
+    "type": "chain",
+    "named": false
+  },
+  {
+    "type": "change-state!",
+    "named": false
+  },
+  {
+    "type": "collapse",
+    "named": false
+  },
+  {
+    "type": "collapse-bind",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "cons-atom",
+    "named": false
+  },
+  {
+    "type": "cos-math",
+    "named": false
+  },
+  {
+    "type": "decons-atom",
+    "named": false
+  },
+  {
+    "type": "empty",
+    "named": false
+  },
+  {
+    "type": "eval",
+    "named": false
+  },
+  {
+    "type": "evalc",
+    "named": false
+  },
+  {
+    "type": "filter-atom",
+    "named": false
+  },
+  {
+    "type": "first-from-pair",
+    "named": false
+  },
+  {
+    "type": "flip",
+    "named": false
+  },
+  {
+    "type": "floor-math",
+    "named": false
+  },
+  {
+    "type": "foldl-atom",
+    "named": false
+  },
+  {
+    "type": "for-each-in-atom",
+    "named": false
+  },
+  {
+    "type": "format-args",
+    "named": false
+  },
+  {
+    "type": "function",
+    "named": false
+  },
+  {
+    "type": "get-atoms",
+    "named": false
+  },
+  {
+    "type": "get-doc",
+    "named": false
+  },
+  {
+    "type": "get-doc-atom",
+    "named": false
+  },
+  {
+    "type": "get-doc-function",
+    "named": false
+  },
+  {
+    "type": "get-doc-params",
+    "named": false
+  },
+  {
+    "type": "get-doc-single-atom",
+    "named": false
+  },
+  {
+    "type": "get-metatype",
+    "named": false
+  },
+  {
+    "type": "get-state",
+    "named": false
+  },
+  {
+    "type": "get-type",
+    "named": false
+  },
+  {
+    "type": "get-type-space",
+    "named": false
+  },
+  {
+    "type": "git-module!",
+    "named": false
+  },
+  {
+    "type": "help!",
+    "named": false
+  },
+  {
+    "type": "help-param!",
+    "named": false
+  },
+  {
+    "type": "id",
+    "named": false
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "if-equal",
+    "named": false
+  },
+  {
+    "type": "if-error",
+    "named": false
+  },
+  {
+    "type": "import!",
+    "named": false
+  },
+  {
+    "type": "include",
+    "named": false
+  },
+  {
+    "type": "index-atom",
+    "named": false
+  },
+  {
+    "type": "intersection",
+    "named": false
+  },
+  {
+    "type": "intersection-atom",
+    "named": false
+  },
+  {
+    "type": "is-function",
+    "named": false
+  },
+  {
+    "type": "isinf-math",
+    "named": false
+  },
+  {
+    "type": "isnan-math",
+    "named": false
+  },
+  {
+    "type": "let",
+    "named": false
+  },
+  {
+    "type": "let*",
+    "named": false
+  },
+  {
+    "type": "log-math",
+    "named": false
+  },
+  {
+    "type": "map-atom",
+    "named": false
+  },
+  {
+    "type": "match",
+    "named": false
+  },
+  {
+    "type": "match-type-or",
+    "named": false
+  },
+  {
+    "type": "match-types",
+    "named": false
+  },
+  {
+    "type": "max-atom",
+    "named": false
+  },
+  {
+    "type": "metta",
+    "named": false
+  },
+  {
+    "type": "min-atom",
+    "named": false
+  },
+  {
+    "type": "mod-space!",
+    "named": false
+  },
+  {
+    "type": "new-space",
+    "named": false
+  },
+  {
+    "type": "new-state",
+    "named": false
+  },
+  {
+    "type": "nop",
+    "named": false
+  },
+  {
+    "type": "noreduce-eq",
+    "named": false
+  },
+  {
+    "type": "not",
+    "named": false
+  },
+  {
+    "type": "number_literal",
+    "named": true
+  },
+  {
+    "type": "or",
+    "named": false
+  },
+  {
+    "type": "pow-math",
+    "named": false
+  },
+  {
+    "type": "pragma!",
+    "named": false
+  },
+  {
+    "type": "print-mods!",
+    "named": false
+  },
+  {
+    "type": "println!",
+    "named": false
+  },
+  {
+    "type": "quote",
+    "named": false
+  },
+  {
+    "type": "random-float",
+    "named": false
+  },
+  {
+    "type": "random-int",
+    "named": false
+  },
+  {
+    "type": "register-module!",
+    "named": false
+  },
+  {
+    "type": "remove-atom",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "return-on-error",
+    "named": false
+  },
+  {
+    "type": "round-math",
+    "named": false
+  },
+  {
+    "type": "sealed",
+    "named": false
+  },
+  {
+    "type": "shebang",
+    "named": true
+  },
+  {
+    "type": "sin-math",
+    "named": false
+  },
+  {
+    "type": "size-atom",
+    "named": false
+  },
+  {
+    "type": "sqrt-math",
+    "named": false
+  },
+  {
+    "type": "subtraction",
+    "named": false
+  },
+  {
+    "type": "subtraction-atom",
+    "named": false
+  },
+  {
+    "type": "superpose",
+    "named": false
+  },
+  {
+    "type": "superpose-bind",
+    "named": false
+  },
+  {
+    "type": "switch",
+    "named": false
+  },
+  {
+    "type": "symbol",
+    "named": true
+  },
+  {
+    "type": "tan-math",
+    "named": false
+  },
+  {
+    "type": "trace!",
+    "named": false
+  },
+  {
+    "type": "trunc-math",
+    "named": false
+  },
+  {
+    "type": "type-cast",
+    "named": false
+  },
+  {
+    "type": "undefined-doc-function-type",
+    "named": false
+  },
+  {
+    "type": "unify",
+    "named": false
+  },
+  {
+    "type": "union",
+    "named": false
+  },
+  {
+    "type": "union-atom",
+    "named": false
+  },
+  {
+    "type": "unique",
+    "named": false
+  },
+  {
+    "type": "unique-atom",
+    "named": false
+  },
+  {
+    "type": "unquote",
+    "named": false
+  },
+  {
+    "type": "xor",
+    "named": false
+  }
+]
